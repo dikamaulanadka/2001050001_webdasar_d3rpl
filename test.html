@@ -1,13 +1,81 @@
 <html>
     <head>
-
+        <title>FORM LOGIN </title>
     </head>
     <body>
-        <center> <br><h1><font face="arial" color="orange">TUGAS 1</font> </h1>  
-            WEB DASAR<br><br>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi praesentium ratione officiis quod nostrum voluptatem, exercitationem fuga hic eaque dolorum? Quos, molestias veritatis. Quos, provident minus ratione sunt necessitatibus velit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi iure nobis neque commodi, rerum saepe laborum ducimus quas dolore enim perspiciatis corrupti odio, consequatur tempora eos, modi porro itaque pariatur.</p>
-        
-        </center>
+<table width="200px" bgcolor=" white" style="border-bottom:2px solid orange;" >
+  <tr ><td> Nama </td><td> : Dika Maulana</td> </tr>   
+  <tr><td> NIM </td><td> : 2001050001</td> </tr> 
+</table>
 
+    <!----------------------------------------------------------------------------------------------------------------------->
+
+        <center> <br><h1><font face="arial" color="orange">FORM BIODATA</font> </h1>  </center>
+        
+        <br>
+        
+        <form name="formwkwk" method="post" target="_blank" action="">
+            <table width="500px" height="500px" bgcolor="" align="center" >
+                <tr>
+                    <td> NIM</td>
+                    <td> : <input type="text" name="nim" size="15" maxlength="10" placeholder="Masukkan Nim"> </td>
+                </tr>
+                <tr>
+                    <td> NAMA</td>
+                    <td> : <input type="text" name="nama" size="27" maxlength="30" placeholder="Nama lengkap lu broh!"> </td>
+                </tr>
+                <tr>
+                    <td> JENIS KELAMIN</td>
+                    <td> :  <input type="radio" name="jeniskelamin" value="P" >Pria
+                            <input type="radio" name="jeniskelamin" value="W">Wanita </td>
+                </tr>
+                <tr>
+                    <td> JURUSAN</td>
+                    <td> : <select name="isijurusan" >
+                        <option value="" disabled selected>Pilh Jurusan</option>
+                        <option value="D3RPL">D3RPL</option>
+                        <option value="S1TI">S1TI</option>
+                        <option value="D3TI">D3TI</option>
+                        <option value="D3MI" >D3MI</option>
+                        </select> </td>
+                </tr>
+                <tr>
+                    <td> HOBBY</td>
+                    <td> : <input type="checkbox" name="hobby" value="komputer" >komputer
+                            <input type="checkbox" name="hobby" value="Musik">Musik
+                            <input type="checkbox" name="hobby" value="Olahraga">Olahraga
+                            <input type="checkbox" name="hobby" value="Travelling">Travelling </td>
+                </tr>
+                <tr>
+                    <td>CATATAN </td>
+                    <td>&nbsp; <textarea name="catatannya" cols="41" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="img">FOTO</label></td>
+                    <td> : <input type="file" id="img" name="fotomu" accept="image/*"></td>
+                </tr>
+                <tr>
+                    <td> EMAIL</td>
+                    <td> : <input type="text" name="nim" size="27" maxlength="30" > </td>
+                </tr>
+                <tr>
+                    <td> PASSWORD</td>
+                    <td> : <input type="password" name="pass" size="27" maxlength="10"> </td>
+                </tr>
+                <tr>
+                    <td> ULANGI PASSWORD</td>
+                    <td> : <input type="password" name="pass" size="27" maxlength="10"> </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> &nbsp;&nbsp;<input type="submit" name="tombolsave" value="SIMPAN">
+                        <input type="reset" name="tombolreset" value="BATAL">
+                        <button type="button" name="submit"  onclick="alert('  Ini Peringatan :3 !')"> PERINGATAN </button> </td>
+                </tr>
+            </table>
+            
+            <br>
+
+            
     </body>
 </html>
